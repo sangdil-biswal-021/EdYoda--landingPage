@@ -1,0 +1,685 @@
+.form {
+    align-items: center;
+    background-color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 32px 24px;
+    position: relative;
+    width: 600px;
+    /* height: 500px; */
+    scale: .8;
+    margin-top: 250px;
+  }
+  
+  .form .progress-bar {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 160px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .stage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+  }
+  
+  .form .icon {
+    background-color: #0096ff;
+    border-radius: 1000px;
+    height: 38px;
+    overflow: hidden;
+    position: relative;
+    width: 38px;
+  }
+  
+  .form .text-wrapper {
+    color: #ffffff;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    height: 23px;
+    left: 10px;
+    letter-spacing: -0.36px;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 18px;
+  }
+  
+  .form .text {
+    color: #3c4852;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .form-header {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .div {
+    align-self: stretch;
+    color: #3c4852;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 30.1px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .form .input-container {
+    align-items: center;
+    /* align-self: stretch; */
+    display: flex;
+    /* flex: 0 0 auto; */
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    width: 95%;
+    padding: 4px;
+  }
+  
+  .form .text-field {
+    align-items: center;
+    align-self: stretch;
+    background-color: #e6e6e6;
+    border: 2px solid;
+    border-color: #bebebe;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -2px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .radio-button {
+    height: 32px;
+    position: relative;
+    width: 32px;
+  }
+  
+  .form .text-container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .form .text-2 {
+    color: #bebebe;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .right-text-container {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .form .top-text {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .form .text-3 {
+    color: #bebebe;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 27px;
+  }
+  
+  .form .text-4 {
+    color: #bebebe;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .div-2 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .form .text-5 {
+    color: #bebebe;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .text-6 {
+    color: #bebebe;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 19px;
+  }
+  
+  .form .tag {
+    background-color: #f77171;
+    border-radius: 0px 0px 4px 4px;
+    height: 16px;
+    left: 62px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 121px;
+  }
+  
+  .form .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Roboto-CondensedMedium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 14px;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .form .text-field-2 {
+    align-items: center;
+    align-self: stretch;
+    background-color: #d7ecdd;
+    border: 2px solid;
+    border-color: #47b968;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .text-7 {
+    color: #3c4852;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .div-3 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .form .text-8 {
+    color: #3c4852;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 27px;
+  }
+  
+  .form .text-9 {
+    color: #3c4852;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .text-10 {
+    color: #3c4852;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .div-wrapper {
+    background-color: #47b968;
+    border-radius: 0px 0px 4px 4px;
+    height: 16px;
+    left: 62px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 121px;
+  }
+  
+  .form .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Roboto-CondensedMedium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 14px;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .form .text-field-3 {
+    align-items: center;
+    align-self: stretch;
+    border: 2px solid;
+    border-color: #bebebe;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .text-field-4 {
+    align-items: center;
+    align-self: stretch;
+    border: 2px solid;
+    border-color: #bebebe;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .summary-container {
+    align-items: center;
+    /* align-self: stretch; */
+    background-color: #ffffff;
+    border-color: #bebebe;
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 16px 24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .div-4 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    height: 24px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .text-11 {
+    color: #3c4852;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .text-12 {
+    color: #3c4852;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .alert {
+    align-items: flex-start;
+    background: linear-gradient(
+      180deg,
+      rgba(222, 67, 19, 0.2) 0%,
+      rgba(222.01, 67.04, 19.02, 0.2) 0.75%,
+      rgba(222.08, 67.3, 19.19, 0.2) 2.92%,
+      rgba(222.26, 68.01, 19.64, 0.2) 6.37%,
+      rgba(222.61, 69.39, 20.52, 0.2) 10.97%,
+      rgba(223.19, 71.67, 21.96, 0.2) 16.59%,
+      rgba(224.05, 75.06, 24.12, 0.2) 23.1%,
+      rgba(225.25, 79.81, 27.13, 0.2) 30.37%,
+      rgba(226.85, 86.11, 31.14, 0.2) 38.27%,
+      rgba(228.91, 94.22, 36.28, 0.2) 46.66%,
+      rgba(231.48, 104.33, 42.7, 0.2) 55.41%,
+      rgba(234.62, 116.69, 50.55, 0.2) 64.39%,
+      rgba(238.38, 131.51, 59.96, 0.2) 73.47%,
+      rgba(242.83, 149.02, 71.08, 0.2) 82.52%,
+      rgba(248.02, 169.44, 84.04, 0.2) 91.41%,
+      rgba(254, 193, 99, 0.2) 100%
+    );
+    border: 2px solid;
+    border-color: transparent;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(222, 67, 19),
+        rgb(222.01, 67.04, 19.02) 0.75%,
+        rgb(222.08, 67.3, 19.19) 2.92%,
+        rgb(222.26, 68.01, 19.64) 6.37%,
+        rgb(222.61, 69.39, 20.52) 10.97%,
+        rgb(223.19, 71.67, 21.96) 16.59%,
+        rgb(224.05, 75.06, 24.12) 23.1%,
+        rgb(225.25, 79.81, 27.13) 30.37%,
+        rgb(226.85, 86.11, 31.14) 38.27%,
+        rgb(228.91, 94.22, 36.28) 46.66%,
+        rgb(231.48, 104.33, 42.7) 55.41%,
+        rgb(234.62, 116.69, 50.55) 64.39%,
+        rgb(238.38, 131.51, 59.96) 73.47%,
+        rgb(242.83, 149.02, 71.08) 82.52%,
+        rgb(248.02, 169.44, 84.04) 91.41%,
+        rgb(254, 193, 99) 100%
+      )
+      1;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: -24px;
+    margin-right: -22px;
+    padding: 12px 24px;
+    position: relative;
+    width: 501px;
+  }
+  
+  .form .text-13 {
+    color: #de4313;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .text-14 {
+    color: #3c4852;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    line-height: 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .alert-body {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .form .icon-clock {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .form .p {
+    color: #de4313;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .left-text {
+    color: #3c4852;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .span {
+    font-weight: 600;
+  }
+  
+  .form .text-wrapper-4 {
+    font-family: "Roboto-Regular", Helvetica;
+  }
+  
+  .form .right-text {
+    color: #3c4852;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .button-container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .secondary-button {
+    align-items: center;
+    border: 2px solid;
+    border-color: #f77171;
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 10px;
+    height: 56px;
+    justify-content: center;
+    padding: 10px 42px;
+    position: relative;
+  }
+  
+  .form .text-15 {
+    color: #f77171;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .primary-button {
+    align-items: center;
+    background-color: #47b968;
+    border-radius: 4px;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    gap: 10px;
+    height: 56px;
+    justify-content: center;
+    padding: 10px 42px;
+    position: relative;
+  }
+  
+  .form .text-16 {
+    color: #ffffff;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .form .icon-container {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  
+  .form .razorpay-icon {
+    /* background-image: url(./frame-12537.png); */
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42.69px;
+    position: relative;
+    width: 120px;
+  } 

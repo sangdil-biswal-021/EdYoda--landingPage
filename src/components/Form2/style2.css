@@ -1,0 +1,97 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  scale: .95;
+  margin-top: 40px;
+}
+.top1 {
+  display: flex;
+  justify-content: space-around;
+  width: 420px;
+}
+.top2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.circB {
+  background: #3b62ff;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  margin: 10px;
+  border-radius: 1000px;
+  font-weight: bolder;
+}
+.text2 {
+  font-size: xx-large;
+}
+
+.dataBars {
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(161, 161, 161);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+}
+.dataBars2 {
+  width: 400px;
+
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+  padding: 4px;
+}
+.line {
+  width: 400px;
+  height: 1px;
+  border-radius: 200px;
+  background: #b7b7b7;
+}
+
+.textLg {
+  font-size: x-large;
+  font-weight: bold;
+}
+.textSm {
+  font-size: medium;
+}
+.boldTx {
+  font-weight: bold;
+}
+.redBtn {
+  background: #ffffff;
+  border: 2px solid red;
+
+  border-radius: 5px;
+  color: red;
+  width: 195px;
+  height: 40px;
+  padding: 8px;
+}
+.greenBtn {
+  background: #2e9f4c;
+
+  border-radius: 5px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  width: 195px;
+  height: 40px;
+  padding: 8px;
+}
+.leftAlign {
+  display: flex;
+  height: 30px;
+}
