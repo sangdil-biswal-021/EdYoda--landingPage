@@ -6,7 +6,7 @@
   padding: 10px;
   border-radius: 10px;
   align-items: center;
-  scale: .95;
+  scale: 0.95;
   margin-top: 40px;
 }
 .top1 {
@@ -22,19 +22,22 @@
 }
 .circB {
   background: #3b62ff;
-  padding: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
   color: white;
   margin: 10px;
   border-radius: 1000px;
   font-weight: bolder;
+  font-size: large;
 }
 .text2 {
-  font-size: xx-large;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .dataBars {
+  position: relative;
   width: 400px;
   border-radius: 10px;
   border: 1px solid rgb(161, 161, 161);
@@ -43,6 +46,45 @@
   align-items: center;
   font-size: large;
   padding: 4px;
+}
+.dataBarsDisabled {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #e1dfdf;
+  color: #a09f9f;
+}
+.dataBarsGreen {
+  position: relative;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgb(42, 201, 69);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #69ff7a35;
+}
+.dataBarsOrange {
+  position: relative;
+  color: rgb(255, 85, 0);;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 85, 0);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  padding: 4px;
+  background: #ffad6935;
+  justify-content: space-between;
 }
 .dataBars2 {
   width: 400px;
@@ -94,4 +136,55 @@
 .leftAlign {
   display: flex;
   height: 30px;
+}
+.topAbsRed{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size:x-small;
+    background: rgb(252, 116, 116);
+    color: white;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.topAbsGreen{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size:x-small;
+    background: rgb(63, 199, 118);
+    color: white;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.leftAbs{
+    position: absolute;
+    
+    left: 0;
+   
+}
+.rightAbs{
+    position: absolute;
+    
+    right: 10px;
+   
+}
+.textXsm{
+font-size: smaller;
+
+}
+.textMd{
+font-size: large;
+}
+.faded{
+    color: rgb(130, 130, 130);
+}
+.textRight{
+    text-align: right;
 }

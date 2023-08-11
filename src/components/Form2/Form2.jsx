@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style2.css";
-import pay from '../../images/RazorpayIcon.png';
+import pay from "../../images/RazorpayIcon.png";
+import alert from "../../images/alert.svg";
 
 function Form2() {
   const [selectedOption, setSelectedOption] = useState("");
@@ -25,31 +26,76 @@ function Form2() {
           <div>Subscribe</div>
         </div>
       </div>
-      <div className="text2">Select Subscription Plan</div>
+      <div className="text2">
+        Select <i className="wi wi-yahoo-10"></i>our Subscription Plan
+      </div>
 
-      <div className="dataBars">
-        <input type="radio" id="input1" value="option1" name="form" />
+      <div className="dataBarsDisabled">
+        <div className="topAbsRed">offer expired</div>
+        <div className="rightAbs">
+          <div className="textSm">
+            Total <span className="boldTx textMd">₹99</span>
+          </div>
+          <div className="textSm textRight">
+            ₹8 <span className="faded textXsm"> /mo</span>
+          </div>
+        </div>
+        <input type="radio" disabled id="input1" value="option1" name="form" />
         <label htmlFor="input1"> 12 Months Subscription</label>
       </div>
-      <div className="dataBars">
+      <div className="dataBarsGreen">
+        <div className="topAbsGreen">Recommended</div>
+        <div className="rightAbs">
+          <div className="textSm">
+            Total <span className="boldTx textMd">₹179</span>
+          </div>
+          <div className="textSm textRight">
+            ₹15 <span className="faded textXsm"> /mo</span>
+          </div>
+        </div>
         <input type="radio" id="input2" value="option2" name="form" />
         <label htmlFor="input2">12 Months Subscription</label>
       </div>
       <div className="dataBars">
         <input type="radio" id="input2" value="option2" name="form" />
+        <div className="rightAbs">
+          <div className="textSm">
+            Total <span className="boldTx textMd">₹149</span>
+          </div>
+          <div className="textSm textRight">
+            ₹25 <span className="faded textXsm"> /mo</span>
+          </div>
+        </div>
         <label htmlFor="input2">6 Months Subscription</label>
       </div>
       <div className="dataBars">
         <input type="radio" id="input3" value="option3" name="form" />
+        <div className="rightAbs">
+          <div className="textSm">
+            Total <span className="boldTx textMd">₹99</span>
+          </div>
+          <div className="textSm textRight">
+            ₹33 <span className="faded textXsm"> /mo</span>
+          </div>
+        </div>
         <label htmlFor="input3">3 Months Subscription</label>
       </div>
 
       <div className="line"></div>
       <div className="dataBars2">
         {" "}
-        <div>Subscription Fee</div> <div> ₹ 18,401</div>
+        <div>Subscription Fee</div> <div> ₹ 18,500</div>
       </div>
-      <div className="dataBars">Limited time offer</div>
+      <div className="dataBarsOrange">
+        <div>
+          <div className="boldTx">Limited time offer</div>
+          <div>
+            <img src={alert} alt="" />
+          </div>
+        </div>
+
+        <div className=""> - ₹ 18,401</div>
+      </div>
 
       <div className="dataBars2">
         {" "}
@@ -64,7 +110,10 @@ function Form2() {
         <button className=" redBtn boldTx">CANCEL</button>
         <button className="greenBtn boldTx">PROCEED TO PAY</button>
       </div>
-      <div className="dataBars2"> <img className="leftAlign" src={pay} alt="rajorpay" /></div>
+      <div className="dataBars2">
+        {" "}
+        <img className="leftAlign" src={pay} alt="rajorpay" />
+      </div>
     </div>
   );
 }
